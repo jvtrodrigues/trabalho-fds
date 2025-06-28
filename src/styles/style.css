@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    color: #353535;
+}
+
+body {
+    background-color: #dedede;
+    margin: 0;
+}
+
+h1#titulo-principal {
+    text-align: center;
+    color: #353535;
+}
+
+h2.subtitulo {
+    background-color: #353535;
+    color: #FFFFE6;
+    width: fit-content;    
+}
+
+p.paragrafo-justificado {
+    font-size: 18px;
+    text-align: justify;
+}
+
+ul.lista-hobbies>li {
+    margin: 24px 0;
+}
+
+img.imagem-hobbie {
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+table.tabela-paises {
+    width: fit-content;
+}
+
+table.tabela-paises td {
+    min-width: 200px;
+}
+
+table.tabela-paises tbody tr:nth-child(odd) {
+    background-color: #d0d0d0;
+}
+
+table.tabela-paises tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table.tabela-paises td.celula-texto {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+table.tabela-paises td.celula-imagem {
+    width: 100%;
+}
+
+table.tabela-paises img.imagem {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+div.container {
+    margin: 0 auto;
+    width: calc(100vw - 80px);
+    padding: 40px;
+    background-color: #fefefe;
+}
+
+a.link:hover {
+    color: #69f;
+}
